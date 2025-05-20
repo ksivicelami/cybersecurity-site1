@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CyberSecure Albania</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0d1117;
+      color: #c9d1d9;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      padding: 30px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      color: #58a6ff;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #8b949e;
+    }
+    nav {
+      background-color: #161b22;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+    nav a {
+      color: #58a6ff;
+      margin: 0 20px;
+      padding: 10px 20px;
+      border-radius: 8px;
+      transition: background 0.3s;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      background-color: #30363d;
+    }
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #58a6ff;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      padding: 10px 0;
+      font-size: 1.1rem;
+    }
+    footer {
+      background-color: #161b22;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #8b949e;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CyberSecure Albania</h1>
+    <p>Mbrojtja juaj digjitale është prioriteti ynë</p>
+  </header>
+
+  <nav>
+    <a href="#kreu" onclick="scrollToSection('kreu')">Kreu</a>
+    <a href="#sherbime" onclick="scrollToSection('sherbime')">Shërbime</a>
+    <a href="#trajnime" onclick="scrollToSection('trajnime')">Trajnime</a>
+    <a href="#kontakt" onclick="scrollToSection('kontakt')">Kontakt</a>
+  </nav>
+
+  <section id="kreu">
+    <h2>Mirë se vini në CyberSecure Albania</h2>
+    <p>Ne ofrojmë zgjidhje të avancuara për sigurinë kibernetike, trajnime për ndërgjegjësim digjital dhe konsulencë për mbrojtje nga kërcënimet online.</p>
+  </section>
+
+  <section id="sherbime">
+    <h2>Shërbimet Tona</h2>
+    <ul>
+      <li>Testime Penetrimi (Pentesting)</li>
+      <li>Monitorim i rrjetit 24/7</li>
+      <li>Auditim sigurie për sisteme IT</li>
+      <li>Incident Response dhe Forenzikë Digjitale</li>
+    </ul>
+  </section>
+
+  <section id="trajnime">
+    <h2>Trajnime</h2>
+    <ul>
+      <li>Trajnim për ndërgjegjësim në sigurinë digjitale</li>
+      <li>Certifikime në Cybersecurity për IT Staff</li>
+      <li>Workshop-e për Mbrojtje nga Sulmet Online</li>
+    </ul>
+  </section>
+
+  <section id="kontakt">
+    <h2>Na Kontaktoni</h2>
+    <p>Email: <a href="mailto:info@cybersecure.al" style="color:#58a6ff; text-decoration: none;">info@cybersecure.al</a></p>
+    <p>Telefon: +355 68 123 4567</p>
+  </section>
+
+  <footer>
+    © 2025 CyberSecure Albania | info@cybersecure.al
+  </footer>
+
+  <script>
+    function scrollToSection(id) {
+      document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>
